@@ -9,7 +9,7 @@ chrome.webRequest.onHeadersReceived.addListener(
 
 	    return {responseHeaders:details.responseHeaders};
 	},
-	{urls: ['https://raw.github.com/*.html']},
+	{urls: ['https://raw.githubusercontent.com/*.html']},
 	['blocking', 'responseHeaders']
 );
 
@@ -21,7 +21,7 @@ chrome.webRequest.onHeadersReceived.addListener(
 
 	    return {responseHeaders:details.responseHeaders};
 	},
-	{urls: ['https://raw.github.com/*.js']},
+	{urls: ['https://raw.githubusercontent.com/*.js']},
 	['blocking', 'responseHeaders']
 );
 
@@ -34,6 +34,6 @@ chrome.webRequest.onHeadersReceived.addListener(
 
     	return {responseHeaders:details.responseHeaders};
 	},
-	{urls: ['https://raw.github.com/*.css']},
+	{urls: ['https://raw.githubusercontent.com/*.css']},
 	['blocking', 'responseHeaders']
 );

@@ -3,7 +3,7 @@
   "version": "0.1",
   "incognito": "split",
   "permissions": [
-    "https://raw.github.com/*",
+    "https://raw.githubusercontent.com/*",
     "webRequest",
     "webRequestBlocking"
   ],
